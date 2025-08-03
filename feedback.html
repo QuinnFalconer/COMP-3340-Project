@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quinn Falconer COMP 3340 Project</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="author" content="Quinn Falconer">
+    <meta name="description" content="COMP 3340 Project">
+</head>
+
+<body>
+
+    <h1>Book Worm</h1>
+
+    <hr>
+
+    <header>
+        <nav>
+            <a href="menuC.html">Home</a>
+            <a href="aboutC.html">About</a>
+            <a href="search.html">Search</a>
+            <a href="order.html">Order</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="logoutC.html">Logout</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <h2>Feedback Form</h2>
+
+        <form>
+        <section>
+            <label for="numppl">How would you rate your experience from 1-5:</label><br>
+            <input type="radio" id="expnum" name="expnum" value="1">
+            <label for="expnum">1</label>
+            <br>
+            <input type="radio" id="expnum" name="expnum" value="2">
+            <label for="expnum">2</label>
+            <br>
+            <input type="radio" id="expnum" name="expnum" value="3">
+            <label for="expnum">3</label>
+            <br>
+            <input type="radio" id="expnum" name="expnum" value="4">
+            <label for="expnum">4</label>
+            <br>
+            <input type="radio" id="expnum" name="expnum" value="5">
+            <label for="expnum">5</label>
+            <br><br>
+
+            <label for = "fav">Favourite Part:</label>
+            <br>
+            <input type = "checkbox" id = "fav" name = "fav" value = "Colours">
+            <label for = "fav">Colours</label>
+            <br>
+            <input type = "checkbox" id = "fav2" name = "fav2" value = "Layout">
+            <label for = "fav2">Layoutu</label>
+            <br>
+            <input type = "checkbox" id = "fav3" name = "fav3" value = "Book Options">
+            <label for = "fav3">Book Options</label>
+            <br>
+            <input type = "checkbox" id = "fav4" name = "fav4" value = "Videos/Pictures">
+            <label for = "fav4">Videos/Pictures</label>
+            <br>
+            <br>
+        </section>
+
+        <section>
+            <label for = "addFeed">Any Additional Feedback:</label><br>
+            <textarea maxlength = "250" id = "addFeed" name = "addFeed" rows = "4" cols = "50">
+            </textarea>
+            <br><br>
+        </section>
+
+        <input onclick="alert('Feedback Submitted!')" type="submit" value="Submit">
+        <input type = "reset" value = "Clear">
+
+    </form>
+
+</body>
+
+</html>

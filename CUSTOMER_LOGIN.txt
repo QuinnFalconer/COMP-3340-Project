@@ -1,0 +1,6 @@
+TO LOGIN AS AN CUSTOMER:
+
+Username: customer1
+Password: 123
+
+From here you can access the additional customer tabs.

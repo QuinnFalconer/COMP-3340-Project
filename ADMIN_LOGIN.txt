@@ -1,0 +1,6 @@
+TO LOGIN AS AN ADMIN:
+
+Username: admin1
+Password: 123
+
+From here you can access the additional admin tabs.

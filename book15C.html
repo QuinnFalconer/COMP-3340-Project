@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quinn Falconer COMP 3340 Project</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="author" content="Quinn Falconer">
+    <meta name="description" content="COMP 3340 Project">
+    <meta name="content" content="book store">
+</head>
+
+<body>
+
+    <h1>Book Worm</h1>
+
+    <hr>
+
+    <header>
+        <nav>
+            <a href="menuC.html">Home</a>
+            <a href="aboutC.html">About</a>
+            <a href="search.html">Search</a>
+            <a href="order.html">Order</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="logoutC.html">Logout</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <img id="book15" src="book15.jpg" class ="productImg" alt="Book cover with window">
+    
+    <div class="div2">
+        <h3>Devil of Fear</h3>
+        <h4>By: Garry Blais</h4>
+
+        <h4 id="price"></h4>
+
+        <button id="p1" onclick="price1()" value="$18.99">Softcover: 18.99</button>
+        <button id="p2" onclick="price2()" value="$46.99">Hardcover: 46.99</button>
+    </div>
+
+    <input type="button" id="order" onclick="order()" value="Place Order Now">
+
+</body>
+
+</html>

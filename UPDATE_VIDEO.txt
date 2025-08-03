@@ -1,0 +1,24 @@
+HOW TO UPDATE VIDEOS:
+
+On this website, the only html files that contain videos are:
+
+about.html
+Index.html
+login.html
+
+To change the pre-existing videos on “about.html”, “index.html” and “login”, follow these steps:
+
+1. Upload the mp4 clip you want to display
+2. Open the html file of whichever page you want to replace the video of
+3. Ctrl + f: video controls
+4. You should see 5 lines of code that look like this:
+    <video controls>
+        <source src="movie1.mp4" type="video/mp4">
+        <source src="movie1.ogg" type="video/ogg">
+        Video Unavailable.
+    </video>
+5. Switch out the strings “movie1.mp4” AND “movie1.ogg” to match the name of the mp4 file you uploaded in step 1
+6. ONLY edit the strings that say “movie1.mp4” AND “movie1.ogg”
+7. DO NOT EDIT ANY OTHER LINES OF CODE
+8. Save the updated document and reload the website
+9. The new video should be playing on all the pages you edited

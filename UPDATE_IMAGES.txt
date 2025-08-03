@@ -1,0 +1,20 @@
+HOW TO UPDATE IMAGES:
+
+On this website, the only html files that contain images are:
+
+All book.html files
+
+To change the pre-existing images on any book.html file, follow these steps:
+
+1.Upload the jpg file you want to display
+2. Open the html file of whichever page you want to replace the image of
+3. Ctrl + f: img
+4. You should see this line of code:
+    <img id="book1" src="book1.jpg" class ="productImg">
+
+
+5. Switch out the strings “book1.jpg” to match the name of the jpg file you uploaded in step 1
+6. ONLY edit the strings that say “book1.jpg”
+7. DO NOT EDIT ANY OTHER LINES OF CODE
+8. Save the updated document and reload the website
+9. The new image should be displayed on all the pages you edited
